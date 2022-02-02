@@ -23,13 +23,11 @@ The library includes imports for server-side only libraries. Because this usage 
 - clone the [zkp-merkle-airdrop-contracts](https://github.com/a16z/zkp-merkle-airdrop-contracts) repo: `gh repo clone a16z/zkp-merkle-airdrop-contracts -- --recurse-submodules`
 - install: `cd zkp-merkle-airdrop-contracts && npm i && npx hardhat compile` 
 - start a local Hardhat node: `npx hardhat node`
----
-- open a new terminal, clone this repo: `gh repo clone a16z/zkp-merkle-airdrop-contracts -- --recurse-submodules`
-- install: `cd zkp-merkle-airdrop-contracts && npm i`
 - deploy: `npx hardhat run --network localhost ./scripts/deploy.ts` 
 - note the deploy locations of the ERC20 contract and the PrivateAirdrop contract logged to the console
 ---
-- open a new terminal, navigate to this repo's directory `zkp-merkle-airdrop-fe-ex`
+- open a new terminal, clone this repo: `gh repo clone a16z/zkp-merkle-airdrop-fe-ex -- --recurse-submodules`
+- install: `cd zkp-merkle-airdrop-fe-ex && npm i`
 - launch the front end: `npm run dev`
 - navigate to `localhost:3000` a browser 
 - point browser wallet at `localhost:8545` (see "Adding Hardhat local..." below)
