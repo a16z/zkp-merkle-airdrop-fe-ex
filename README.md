@@ -1,4 +1,4 @@
-*Notice: This repository has been deprecated in favor of the monorepo found at [a16z/zkdrops](github.com/a16z/zkdrops)*
+*Notice: This repository has been deprecated in favor of the monorepo found at [a16z/zkdrops](https://github.com/a16z/zkdrops)*
 
 # React + NextJS + Webpacking
 Example of computing proofs for the [zkp-merkle-airdrop-contracts](https://github.com/a16z/zkp-merkle-airdrop-contracts) sample repo in the browser. The majority of the work is done by the [zkp-merkle-airdrop-lib](https://github.com/a16z/zkp-merkle-airdrop-lib) which in turn uses the work of the iden3 team's circom libraries. In this repo it's installed as a submodule in `zkp-merkle-airdrop-lib`.
